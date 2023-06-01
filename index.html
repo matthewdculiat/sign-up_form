@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-Up Form</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div>
+        <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80">
+        <footer>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></footer>
+    </div>
+    <div>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p>You know you want to.</p>
+        <form>
+            <h4>Let's do this!</h4>
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="first-name" id="first-name" required>
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name" required>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="tel" name="phone-number" id="phone-number" minlength="9" maxlength="9" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required>
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+            <button type="submit">Create Account</button>
+            <div><p>Already have an account?</p><a href="#">Log in</a></div>
+        </form>
+    </div>
+
 </body>
 </html>
