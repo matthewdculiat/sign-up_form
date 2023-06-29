@@ -5,23 +5,67 @@
 }
 
 body {
-    display: block;
+    display: flex;
 }
 
-img {
-    width: 100%;
+.card-container div {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 20vh;
 }
+
+footer {
+    text-align: center;
+    color: lightgray;
+}
+
 .card-container {
     border: 3px solid brown;
-    height: 100%%;
-    width: 40%;
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url(./images/lukas-mann-2YUPRqX17i0-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 35vw;
 }
 
 .form-container {
     border: 3px solid gray;
-    height: auto%;
-    width: 60%;
+    height: 100vh;
+    width: 60vw;
     display: inline-block;
+    background-color: #e5d3b3;
+}
 
+.form-top, .form-bottom {
+    background-color: #d2b48c;
+    height: 30vh;
+}
+
+.form-mid {
+    height: 40vh;
+}
+
+.odin-logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.card-container > div > p {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.card-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-container > div > p {
+    font-size: xx-large;
 }
