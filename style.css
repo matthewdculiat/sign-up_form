@@ -11,7 +11,7 @@ body {
 .card-container div {
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 1em;
     box-sizing: border-box;
     height: 20vh;
 }
@@ -29,7 +29,7 @@ footer {
     background: url(./images/lukas-mann-2YUPRqX17i0-unsplash.jpg);
     background-size: cover;
     height: 100vh;
-    width: 35vw;
+    width: 40vw;
 }
 
 .form-container {
@@ -37,16 +37,28 @@ footer {
     height: 100vh;
     width: 60vw;
     display: inline-block;
-    background-color: #e5d3b3;
+    background-color: hsl(38, 49%, 80%);
+    font-size: larger;
 }
 
 .form-top, .form-bottom {
-    background-color: #d2b48c;
+    background-color: rgba(210,180, 140, 0.8);
     height: 30vh;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.form-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
 .form-mid {
     height: 40vh;
+    padding: 2em;
+    box-sizing: border-box;
 }
 
 .odin-logo {
@@ -63,9 +75,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card-container > div > p {
     font-size: xx-large;
+}
+
+button {
+    color: white;
+    background-color: rgba(102, 66, 41);
+    padding: 1em;
+    border-radius: 1em;
 }
