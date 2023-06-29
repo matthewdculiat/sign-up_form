@@ -8,39 +8,46 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div>
+        
+    </div>
     <div class="card-container">
         <div>
             <img class="odin-logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
-            <p>Thor</p>
+            <p>Mjolnir</p>
         </div>
         <footer>Photo by <a href="https://unsplash.com/@exploromann">Lukas Mann</a> on <a href="https://unsplash.com/">Unsplash</a></footer>
     </div>
     <div class="form-container">
         <div class="form-top">
             <p>This is not a real online service! You know you need something <br>like this in your life to help you realize your deepest dreams.</p>
-            <p>You know you want to.</p>
+            <br>
+            <p>Sign up <em>now</em> to get started. You <em>know</em> you want to.</p>
         </div>
 
         <form>
-            <h4>Let's do this!</h4>
-            <div>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" placeholder="Odinson" required>
+            <div class="form-mid">
+                <h4>Let's do this!</h4>
+                <div>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Odinson" required>
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="thorodinson@email.com" required>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" id="phone-number" minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="0987-654-3210" required>
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
             </div>
-            <div>
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" placeholder="thorodinson@email.com" required>
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number" minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="0987-654-3210" required>
-            </div>
-            <div>
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" required>
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password" required>
-            </div>
+
             <div class="form-bottom">
                 <button type="submit">Create Account</button>
                 <div><p>Already have an account?</p><a href="#">Log in</a></div>
