@@ -27,30 +27,41 @@
 
         <form>
             <div class="form-mid">
-                <h4>Let's do this!</h4>
-                <div>
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Odinson" required>
-                </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email" placeholder="thorodinson@email.com" required>
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input type="tel" name="phone-number" id="phone-number" minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="0987-654-3210" required>
-                </div>
-                <div>
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password" required>
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-password" id="confirm-password" required>
+                <h4 class="form-message">Let's do this!</h4>
+                <div class="form">
+                    <div class="input">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
+                    </div>   
+                    <div class="input"> 
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Odinson" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="thorodinson@email.com" required>
+                    </div>
+                    <div class="input">    
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="0987-654-3210" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input">    
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
                 </div>
             </div>
 
             <div class="form-bottom">
                 <button type="submit">Create Account</button>
-                <div><p>Already have an account?</p><a href="#">Log in</a></div>
+                <div class="login">
+                    <p>Already have an account?</p>
+                    <a href="#">Log in</a>
+                </div>
             </div>
         </form>
     </div>
