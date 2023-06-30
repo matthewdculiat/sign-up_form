@@ -61,7 +61,8 @@ footer {
 .form {
     display: flex;
     flex-flow: row wrap;
-    gap: 2em;
+    gap: 3.5em;
+    box-sizing: border-box;
     /* position: relative; */
 }
 
